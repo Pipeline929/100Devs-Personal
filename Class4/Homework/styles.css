@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+    border: 5px solid lightgreen;
+    width: auto;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+nav {
+    text-align: center;
+}
+
+li { 
+    display: inline;
+    border-right: 2px;   
+}
+
+li:last-child{
+    border-left: 2px;
+}
+
+h2 {
+    color: white;
+    margin: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+section {
+    margin: 40px;
+    width: 50%;
+}
+
+p {
+    color: white;
+}
+
+img {
+    float: right;
+    width: 300px;
+    height: auto;    
+}
