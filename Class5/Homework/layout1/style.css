@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer,section{
+    background-color: gray;
+}
+
+header,footer{
+    height: 100px;
+    clear: both;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+footer{
+    border-top: 1px solid black;
+}
+
+
+
+.first{
+    height: 150px;
+    width: 33.3333%;
+    float: left;
+}
+
+.middle{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.second{
+    height: 200px;
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+}
